@@ -1,11 +1,16 @@
-# ros-blue
+# fidi robot
 
-some ROS nodes for the Beaglbone Blue
+a robot based on Lego 42065 Tracked Racer and the Beaglbone Blue
+
+Using various nodes 
 
 ## Nodes overview
 
 * differential driver node using the onboard motor ports
 * publisher for IMU messages from MPU9250
+
+# launch 
+`roslaunch fidi fidi.launch`
 
 
 ## Differential Motor Driver
@@ -60,3 +65,4 @@ red - x green - y blue -z
 `sudo apt-get install ros-melodic-imu-tools`
 
 `rosrun imu_filter_madgwick imu_filter_node`
+
