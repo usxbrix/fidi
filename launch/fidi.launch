@@ -2,9 +2,9 @@
 <launch>
 
 	<arg name="sensing_hz" default="10" />
-	<arg name="model" default="$(find fidi)/urdf/model.urdf"/>
+	<arg name="model" default="$(find fidi_robot)/urdf/model.urdf"/>
 
-	<param name="robot_description" textfile="$(find fidi)/urdf/model.urdf" />
+	<param name="robot_description" textfile="$(find fidi_robot)/urdf/model.urdf" />
 	<node pkg="tf" type="static_transform_publisher" name="base_imu_broadcaster" args="0.0 0.0 0.05 0 0 0 base_link imu_link 100" />
 
 	<node name="vl53l0x_driver" pkg="vl53l0x_driver" type="vl53l0x_driver" respawn="true" respawn_delay="5" >
