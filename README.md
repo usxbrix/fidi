@@ -24,22 +24,23 @@ Using various nodes:
 ## Differential Motor Driver
 
 Max speed(linear velocity): 0,364 m/s @ duty cycle 0,8 (to not overload the motor controller with the Lego PF L motors)
-           
+
 Max angular velocity based on max speed: 5,6 rad/s @ 0,364 m/s and wheelbase 0,13
 
 ### Parameter
 
-* ~left_motor = 1
-* ~right_motor = 2
+* ~left_motor = 3
+* ~right_motor = 4
 * ~timeout = 5
-* ~maxspeed = 0.4
-* ~minspeed = 0.1
-* ~wheelbase = 0.2
+* ~maxspeed = 0.364
+* ~minspeed = 0.137
+* ~wheelbase = 0.13
 * ~turnspeed = 1
+* ~duty_factor = 2.2
 
 ### Run
 
-`rosrun ros-blue diff_motor_driver _left_motor:=3 _right_motor:=4 _minspeed:=0.137 _maxspeed:=0.364 _wheelbase:=0.13`
+`rosrun ros-blue diff_motor_driver _left_motor:=3 _right_motor:=4 _minspeed:=0.137 _maxspeed:=0.364 _wheelbase:=0.13 _duty_factor:=2.2`
 
 Publish to cmd_vel manually
 
