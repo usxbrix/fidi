@@ -24,6 +24,7 @@ Using various nodes:
 ## Differential Motor Driver
 
 Max speed: 0,364 m/s @ duty cycle 0,8 (to not overload the motor controller with the Lego PF L motors)
+
            5,6 rad/s @ 0,364 m/s and wheelbase 0,13
 
 ### Parameter
@@ -42,7 +43,7 @@ Max speed: 0,364 m/s @ duty cycle 0,8 (to not overload the motor controller with
 
 Publish to cmd_vel manually
 
-`rostopic pub -1 /cmd_vel geometry_msgs/Twist -- '[1.0, 0.0, 0.0]' '[0.0, 0.0, 0]'``
+`rostopic pub -1 /cmd_vel geometry_msgs/Twist -- '[1.0, 0.0, 0.0]' '[0.0, 0.0, 0]'`
 
 
 # Visualizing rviz
