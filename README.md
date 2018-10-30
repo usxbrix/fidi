@@ -23,9 +23,9 @@ Using various nodes:
 
 ## Differential Motor Driver
 
-Max speed: 0,364 m/s @ duty cycle 0,8 (to not overload the motor controller with the Lego PF L motors)
-
-           5,6 rad/s @ 0,364 m/s and wheelbase 0,13
+Max speed(linear velocity): 0,364 m/s @ duty cycle 0,8 (to not overload the motor controller with the Lego PF L motors)
+           
+Max angular velocity based on max speed: 5,6 rad/s @ 0,364 m/s and wheelbase 0,13
 
 ### Parameter
 
