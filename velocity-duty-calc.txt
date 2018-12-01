@@ -1,0 +1,132 @@
+duty 0.800800
+
+[INFO] [1543694560.495510]: /simple_move_range_speed_3371_1543694553280 OBSTACLE: stopping SPEED: 0.47596920042
+Let's move your robot
+Input your speed:0.5
+[INFO] [1543694656.488453]: /simple_move_range_speed_3371_1543694553280 OBSTACLE: stopping SPEED: 0.479182163464
+Let's move your robot
+Input your speed:0.5
+[INFO] [1543694683.197849]: /simple_move_range_speed_3371_1543694553280 OBSTACLE: stopping SPEED: 0.482269754304
+Let's move your robot
+Input your speed:0.5
+[INFO] [1543694700.186603]: /simple_move_range_speed_3371_1543694553280 OBSTACLE: stopping SPEED: 0.47899098599
+Let's move your robot
+Input your speed:0.5
+[INFO] [1543694715.292392]: /simple_move_range_speed_3371_1543694553280 OBSTACLE: stopping SPEED: 0.472919925983
+Let's move your robot
+Input your speed
+
+duty:0.726000
+[INFO] [1543694917.298908]: /simple_move_range_speed_3412_1543694908071 OBSTACLE: stopping SPEED: 0.413479054125
+Let's move your robot
+Input your speed:0.33
+[INFO] [1543694932.502094]: /simple_move_range_speed_3412_1543694908071 OBSTACLE: stopping SPEED: 0.423537294337
+Let's move your robot
+Input your speed:0.33
+[INFO] [1543694944.994598]: /simple_move_range_speed_3412_1543694908071 OBSTACLE: stopping SPEED: 0.421563586717
+Let's move your robot
+Input your speed:0.33
+[INFO] [1543694958.289768]: /simple_move_range_speed_3412_1543694908071 OBSTACLE: stopping SPEED: 0.409210453567
+Let's move your robot
+Input your speed:0.33
+[INFO] [1543694975.484866]: /simple_move_range_speed_3412_1543694908071 OBSTACLE: stopping SPEED: 0.416433371367
+Let's move your robot
+
+duty:0.550000
+Input your speed:0.25
+[INFO] [1543695074.411075]: /simple_move_range_speed_3440_1543695056397 OBSTACLE: stopping SPEED: 0.275995918499
+Let's move your robot
+Input your speed:0.25
+[INFO] [1543695100.594896]: /simple_move_range_speed_3440_1543695056397 OBSTACLE: stopping SPEED: 0.27510807511
+Let's move your robot
+Input your speed:0.25
+[INFO] [1543695120.204348]: /simple_move_range_speed_3440_1543695056397 OBSTACLE: stopping SPEED: 0.270016853522
+Let's move your robot
+Input your speed:0.25
+[INFO] [1543695138.775564]: /simple_move_range_speed_3440_1543695056397 OBSTACLE: stopping SPEED: 0.274859006078
+Let's move your robot
+Input your speed:0.25
+[INFO] [1543695160.295274]: /simple_move_range_speed_3440_1543695056397 OBSTACLE: stopping SPEED: 0.273011832326
+Let's move your robot
+
+duty:0.330000
+Input your speed:0.15
+[INFO] [1543695250.311186]: /simple_move_range_speed_3469_1543695227613 OBSTACLE: stopping SPEED: 0.116422807852
+Let's move your robot
+Input your speed:0.15
+[INFO] [1543695291.586616]: /simple_move_range_speed_3469_1543695227613 OBSTACLE: stopping SPEED: 0.120031838283
+Let's move your robot
+Input your speed:0.15
+[INFO] [1543695313.688166]: /simple_move_range_speed_3469_1543695227613 OBSTACLE: stopping SPEED: 0.121157461944
+Let's move your robot
+Input your speed:0.15
+[INFO] [1543695337.181281]: /simple_move_range_speed_3469_1543695227613 OBSTACLE: stopping SPEED: 0.123905781411
+Let's move your robot
+Input your speed:0.15
+[INFO] [1543695361.378895]: /simple_move_range_speed_3469_1543695227613 OBSTACLE: stopping SPEED: 0.122315011112
+Let's move your robot
+Input your speed:0.15
+[INFO] [1543695386.079261]: /simple_move_range_speed_3469_1543695227613 OBSTACLE: stopping SPEED: 0.114672299038
+Let's move your robot
+
+duty:0.440000
+Input your speed:0.2
+[INFO] [1543695473.289317]: /simple_move_range_speed_3505_1543695458120 OBSTACLE: stopping SPEED: 0.204893469619
+Let's move your robot
+Input your speed:0.2
+[INFO] [1543695492.976786]: /simple_move_range_speed_3505_1543695458120 OBSTACLE: stopping SPEED: 0.210120991298
+Let's move your robot
+Input your speed:0.2
+[INFO] [1543695512.799055]: /simple_move_range_speed_3505_1543695458120 OBSTACLE: stopping SPEED: 0.210796363436
+Let's move your robot
+Input your speed:0.2
+[INFO] [1543695529.985048]: /simple_move_range_speed_3505_1543695458120 OBSTACLE: stopping SPEED: 0.206645192667
+Let's move your robot
+Input your speed:0.2
+[INFO] [1543695625.592287]: /simple_move_range_speed_3505_1543695458120 OBSTACLE: stopping SPEED: 0.20675811991
+Let's move your robot
+Input your speed:0.2
+[INFO] [1543695647.703033]: /simple_move_range_speed_3505_1543695458120 OBSTACLE: stopping SPEED: 0.204694049064
+Let's move your robot
+
+duty:0.484000
+Let's move your robot
+Input your speed:0.22
+[INFO] [1543695769.685289]: /simple_move_range_speed_3535_1543695757925 OBSTACLE: stopping SPEED: 0.236520408932
+Let's move your robot
+Input your speed:0.22
+[INFO] [1543695788.686469]: /simple_move_range_speed_3535_1543695757925 OBSTACLE: stopping SPEED: 0.239480315347
+Let's move your robot
+Input your speed:0.22
+[INFO] [1543695806.405594]: /simple_move_range_speed_3535_1543695757925 OBSTACLE: stopping SPEED: 0.240037197842
+Let's move your robot
+Input your speed:0.22
+[INFO] [1543695824.986118]: /simple_move_range_speed_3535_1543695757925 OBSTACLE: stopping SPEED: 0.233999176666
+Let's move your robot
+Input your speed:0.22
+[INFO] [1543695843.993747]: /simple_move_range_speed_3535_1543695757925 OBSTACLE: stopping SPEED: 0.239092315725
+Let's move your robot
+Input your speed:0.22
+[INFO] [1543695951.192258]: /simple_move_range_speed_3535_1543695757925 OBSTACLE: stopping SPEED: 0.240703725545
+Let's move your robot
+Input your speed:
+
+duty:0.418000
+[INFO] [1543696080.984136]: /simple_move_range_speed_3563_1543696069179 OBSTACLE: stopping SPEED: 0.191875330232
+Let's move your robot
+Input your speed:0.19
+[INFO] [1543696107.086360]: /simple_move_range_speed_3563_1543696069179 OBSTACLE: stopping SPEED: 0.187148433859
+Let's move your robot
+Input your speed:0.19
+[INFO] [1543696133.305090]: /simple_move_range_speed_3563_1543696069179 OBSTACLE: stopping SPEED: 0.180518918332
+Let's move your robot
+Input your speed:0.19
+[INFO] [1543696175.099263]: /simple_move_range_speed_3563_1543696069179 OBSTACLE: stopping SPEED: 0.184180763199
+Let's move your robot
+Input your speed:0.19
+[INFO] [1543696196.580827]: /simple_move_range_speed_3563_1543696069179 OBSTACLE: stopping SPEED: 0.184273943716
+Let's move your robot
+Input your speed:0.19
+[INFO] [1543696245.801220]: /simple_move_range_speed_3563_1543696069179 OBSTACLE: stopping SPEED: 0.176722223045
+Let's move your robot
+
