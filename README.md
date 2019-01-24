@@ -10,6 +10,7 @@ Using various nodes:
 * differential driver node using the onboard motor ports
 * publisher for IMU messages from MPU9250
 * range sensor vl53l0x_driver
+* for basic navigation [move_basic](https://github.com/UbiquityRobotics/move_basic) package by [UbiquityRobotics](https://github.com/UbiquityRobotics)
 
 # launch
 
@@ -52,6 +53,28 @@ Publish to cmd_vel manually
 
 `rosrun move_basic move_basic _min_angular_velocity:=2.8 _max_angular_velocity:=10`
 
+Publish simple navigation target
+
+180 degree turn
+```
+rostopic pub -1 /move_base_simple/goal geometry_msgs/PoseStamped "header:
+  seq: 1
+  stamp:
+    secs: 0
+    nsecs: 0
+  frame_id: 'base_link'
+pose:
+  position:
+    x: 0.0
+    y: 0
+    z: 0.0
+  orientation:
+    x: 0.0
+    y: 0.0
+    z: 1
+    w: 0.0 "
+
+```
 
 # Visualizing rviz
 
