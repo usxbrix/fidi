@@ -40,7 +40,7 @@ Max angular velocity based on max speed: 5,6 rad/s @ 0,364 m/s and wheelbase 0,1
 
 ### Run
 
-`rosrun ros-blue diff_motor_driver _left_motor:=3 _right_motor:=4 _minspeed:=0.137 _maxspeed:=0.364 _duty_factor:=2.2 _wheelbase:=0.13`
+`rosrun bbblue_drivers diff_motor_driver _left_motor:=3 _right_motor:=4 _minspeed:=0.137 _maxspeed:=0.364 _duty_factor:=2.2 _wheelbase:=0.17`
 
 Publish to cmd_vel manually
 
