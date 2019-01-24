@@ -46,6 +46,12 @@ Publish to cmd_vel manually
 
 `rostopic pub -1 /cmd_vel geometry_msgs/Twist -- '[1.0, 0.0, 0.0]' '[0.0, 0.0, 0]'`
 
+## Basic Navigation (move_basic)
+
+### Run
+
+`rosrun move_basic move_basic _min_angular_velocity:=2.8 _max_angular_velocity:=10`
+
 
 # Visualizing rviz
 
