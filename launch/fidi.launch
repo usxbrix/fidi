@@ -15,4 +15,7 @@
 	</node>
 	<node name="imu_pub_node" pkg="bbblue_drivers" type="imu_pub_node" respawn="true" />
 	
+	<!-- <include file="$(dirname)/other.launch" /> -->
+	<include file="pixy2.launch" />
+	
 </launch>
