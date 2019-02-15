@@ -1,7 +1,6 @@
 <!-- -*- mode: XML -*- -->
 <launch>
 
-	<arg name="sensing_hz" default="20" />
 	<arg name="model" default="$(find fidi_robot)/urdf/model.urdf"/>
 
 	<param name="robot_description" textfile="$(find fidi_robot)/urdf/model.urdf" />
@@ -9,10 +8,8 @@
 	<node pkg="tf" type="static_transform_publisher" name="base_imu_broadcaster" args="0.0 0.0 0.05 0 0 0 base_link imu_link 100" />
 	<node pkg="tf" type="static_transform_publisher" name="base_range_broadcaster" args="0.0 0.0 0.02 0 0 0 base_link range_link 100" />
 
-	<node name="vl53l0x_driver" pkg="vl53l0x_driver" type="vl53l0x_driver" respawn="true" respawn_delay="5" >
-		<param name="frequency" value="$(arg sensing_hz)" />
-		<remap from="range" to="sonars"/>
-	</node>
+	<include file="vl53l0x.launch" />
+	
 	<node name="imu_pub_node" pkg="bbblue_drivers" type="imu_pub_node" respawn="true" />
 	
 	<!-- <include file="$(dirname)/other.launch" /> -->
