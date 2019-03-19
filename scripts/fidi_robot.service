@@ -1,0 +1,14 @@
+[Unit]
+
+Description=Start fidi robot
+
+After=network.target
+
+[Service]
+
+ExecStart=/home/beagle/catkin_ws/src/fidi_robot/scripts/start-fidi.sh
+
+
+[Install]
+
+WantedBy=default.target
