@@ -1,3 +1,18 @@
+# 
+# /etc/systemd/system/fidi_robot.service
+#
+### make executable
+# sudo chmod 664 /etc/systemd/system/fidi_robot.service
+# sudo systemctl daemon-reload
+#
+### enable & start new service
+# sudo systemctl enable fidi_robot.service
+# sudo systemctl start fidi_robot.service
+#
+### stop service
+# sudo systemctl stop fidi_robot.service
+#
+
 [Unit]
 
 Description=Start fidi robot
