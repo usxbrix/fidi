@@ -74,7 +74,30 @@ pose:
     z: 1
     w: 0.0 "
 
+
 ```
+
+# Joystic control
+
+
+https://kofler.info/bluetooth-konfiguration-im-terminal-mit-bluetoothctl/
+bluetoothctl
+scan on
+pair 
+trust
+connect
+
+
+`sudo apt install ros-melodic-joy ros-melodic-teleop-twist-joy`
+
+http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick
+`rosparam set joy_node/dev "/dev/input/js0"`
+
+`rosrun joy joy_node`
+
+http://wiki.ros.org/teleop_twist_joy
+nintendo joy-con (L)
+`rosrun teleop_twist_joy teleop_node _axis_linear:=4 _axis_angular:=5 _scale_angular:=3 _enable_button:=15 `
 
 # Visualizing rviz
 
