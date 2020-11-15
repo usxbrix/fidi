@@ -1,6 +1,8 @@
 <!-- -*- mode: XML -*- -->
 <launch>
 
+	<!-- <node name="luma_terminal" pkg="playground_ros" type="string_to_luma.py" respawn="true" output="screen"/> -->
+	
 	<arg name="model" default="$(find fidi_robot)/urdf/model.urdf"/>
 
 	<param name="robot_description" textfile="$(find fidi_robot)/urdf/model.urdf" />
@@ -8,11 +10,23 @@
 	<node pkg="tf" type="static_transform_publisher" name="base_imu_broadcaster" args="0.0 0.0 0.05 0 0 0 base_link imu_link 100" />
 	<node pkg="tf" type="static_transform_publisher" name="base_range_broadcaster" args="0.0 0.0 0.02 0 0 0 base_link range_link 100" />
 
-	<include file="$(dirname)/vl53l0x.launch" />
+	<include file="$(dirname)/vl53l0x.launch" /> 
+
+	<!-- <include file="$(dirname)/diff_motor_driver.launch" /> -->
 	
-	<node name="imu_pub_node" pkg="bbblue_drivers" type="imu_pub_node" respawn="true" />
+	<!-- <include file="$(find simple_web_teleop)/launch/simple_web_teleop.launch" /> -->
+	
+	<node name="imu_pub_node" pkg="bbblue_drivers" type="imu_pub_node" respawn="true" output="screen"/>
 	
 	<!-- <include file="$(dirname)/other.launch" /> -->
-	<include file="$(dirname)/pixy2.launch" />
+	<!-- <include file="$(dirname)/pixy2.launch" /> -->
 	
+	<!--
+	<node name="move_basic" pkg="move_basic" type="move_basic" respawn="true" respawn_delay="5" output="screen"> 
+		<param name="min_angular_velocity" value="2.8" />
+		<param name="max_angular_velocity" value="10" />
+	</node>
+	-->
+
+
 </launch>

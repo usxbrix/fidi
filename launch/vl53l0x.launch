@@ -1,7 +1,7 @@
 <!-- -*- mode: XML -*- -->
 <launch>
 
-	<arg name="rate" default="10" />
+	<arg name="rate" default="20" />
 
 	<node name="vl53l0x_driver" pkg="vl53l0x_driver" type="vl53l0x_driver" respawn="true" respawn_delay="5">
 		<param name="rate" value="$(arg rate)" />
